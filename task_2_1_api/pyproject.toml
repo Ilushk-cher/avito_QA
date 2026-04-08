@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 150
+target-version = "py37"
+
+[tool.ruff.lint]
+select = [
+  "E",
+  "F",
+  "I",
+  "B",
+]
